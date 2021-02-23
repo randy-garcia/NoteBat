@@ -10,6 +10,8 @@ The Batch file does th following.
    *  Multiple notes per day can be created. Each file is timestamped with HMS to avoid collisions.
 * Opens notepad or change to your editor of choice. (Notepad will prompt you with a message asking if you would like to create the non-existing file.)
 
+* At the start of each new month it will create a summary file of the pervious month. The summary file combines all the notes from the previous month into a summary.md file. This make is a little easier if you are searching for something. Both the original day based and summary notes will live together. 
+
 The final file structure will look something like this:
 ```
 📦RootNoteDirectory
@@ -30,4 +32,3 @@ The final file structure will look something like this:
  ┃    ┗ 📜Note-2021-02-05_112507.md
  ┃    ┗ 📜Note-2021-02-18_085300.md
 ```
-* At the start of each new month it will create a summary file of the pervious month. The summary file combines all the notes from the previous month into a summary.md file. This make is a little easier if you are searching for something. Both the original day based and summary notes will live together. 
