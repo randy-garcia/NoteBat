@@ -1,4 +1,4 @@
-# NoteBat
+# NoteBat :cactus:
 Batch that creates markdown notes in a simple file structure ready to be used with git. 
 
 Make sure to set your note directory in the file. 
