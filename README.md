@@ -4,8 +4,8 @@ Batch that creates markdown notes in a simple file structure ready to be used wi
 Make sure to set your note directory in the file. 
 The Batch file does th following.
 
-* Creates a folder with the current year if it already doesn't exist
-* Creates a folder with the current month if it already doesn't exist
+* Creates a folder with the current year if it doesn't already exist
+* Creates a folder with the current month if it doesn't already exist
 * Create a new Markdown (.md) file with the following name: ```Note-YYYY-MM-DD_HMS.md```
    *  Multiple notes per day can be created. Each file is timestamped with HMS to avoid collisions.
 * Opens notepad or change to your editor of choice. (Notepad will prompt you with a message asking if you would like to create the non-existing file.)
